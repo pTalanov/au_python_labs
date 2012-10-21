@@ -1,5 +1,6 @@
 __author__ = 'Pavel'
 
+# calculates all the numbers less than n that are exactly two prime numbers multiplied
 class Primes:
     def __init__(self, n):
         self.n = n
