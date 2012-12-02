@@ -30,7 +30,7 @@ class Forest(object):
             self.setParent(xRoot, yRoot)
         elif xRoot != yRoot:
             self.setParent(yRoot, xRoot)
-            self.setRank(x, self.getRank(xRoot) + 1)
+            self.setRank(xRoot, self.getRank(xRoot) + 1)
 
     def find(self, x):
         if self.getParent(x) == x:
